@@ -13,10 +13,11 @@ body {
     grid-template-columns: 1fr 136px 1fr;
     grid-template-areas: 
     "header__menu header__logo header__address";
+}
+
+.header__menu {
+    align-self: center;    
     
-    .header__menu {
-        align-self: center;    
-    }
 }
 
 .header__links-list {
