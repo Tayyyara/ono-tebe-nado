@@ -11,13 +11,12 @@ body {
     margin: 92px 51.5px;
     display: grid;
     grid-template-columns: 1fr 136px 1fr;
-    grid-template-areas: 
+    grid-template-areas:
     "header__menu header__logo header__address";
 }
 
 .header__menu {
-    align-self: center;    
-    
+    align-self: center;
 }
 
 .header__links-list {
@@ -197,7 +196,7 @@ h4 {
     margin: 0 54px 189px 46px;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-areas: 
+    grid-template-areas:
     "about__logo about__description";
     column-gap: 25px;
 }
@@ -221,7 +220,7 @@ h4 {
 .about__description {
     display: grid;
     grid-template-rows: 240px 1fr;
-    grid-template-areas: 
+    grid-template-areas:
     "about__heading"
     "about__text";
 }
@@ -242,7 +241,7 @@ h4 {
     font-size: 18px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 
+    grid-template-areas:
     "footer__address footer__menu footer__social-list";
 }
 
