@@ -39,6 +39,7 @@ body {
 .header__address {
     justify-self: end;
     align-self: center;
+    padding-right: 36px;
 }
 
 h3 {
@@ -97,7 +98,7 @@ h1 {
 }
 
 .cover__description {
-    margin-top: 129px;
+    margin-top: 128px;
     margin-right: 50px;
     display: flex;
     justify-content: end;
@@ -109,7 +110,7 @@ h2 {
     font-size: 21.4px;
     font-style: normal;
     font-weight: 200;
-    word-spacing: 20px;
+    word-spacing: 21px;
 }
 
 button {
@@ -123,7 +124,7 @@ button {
 }
 
 .lots {
-    margin: 0 50px 176px;
+    margin: 0 24px 176px;
     display: flex;
     flex-direction: column;
     gap: 27px;
@@ -145,23 +146,20 @@ button {
 .lots__card-list-item {
     position: relative;
     background-size: cover;
-    padding: 50px 40px;
+    padding: 51px 40px 48px;
     color: white;
     z-index: 0;
 }
-
-/* h4 {
-    text-decoration: underline;
-    text-underline-offset: 3px;
-    text-decoration-thickness: 1px;
-} */
 
 .card {
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 35px;
+}
+
+.card__text {
+    line-height: 1.2em;
 }
 
 .overlay {
@@ -193,18 +191,19 @@ button {
 }
 
 .about {
-    margin: 0 54px 189px 46px;
+    margin: 0 17px 181px 17px;
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-areas:
     "about__logo about__description";
-    column-gap: 25px;
+    column-gap: 19px;
 }
 
 .about__logo {
     width: 240px;
     height: 240px;
     background-color: black;
+    color: white;
     border-radius: 50%;
     align-self: start;
     justify-self: center;
@@ -231,6 +230,8 @@ button {
 }
 
 .about__text {
+    margin-top: 10px;
+    padding-right: 8px;
     :last-child {
         margin-top: 25px;
     }
