@@ -30,6 +30,10 @@ body {
     list-style: none;
 }
 
+.header__links-list-item_no-bullit a {
+    text-decoration: none;
+}
+
 .address {
     font-style: normal;
     text-underline-offset: 4px;
@@ -39,7 +43,7 @@ body {
 .header__address {
     justify-self: end;
     align-self: center;
-    padding-right: 36px;
+    padding-right: 33px;
 }
 
 h3 {
@@ -114,13 +118,15 @@ h2 {
 }
 
 button {
+    font-family: Raleway, sans-serif;
+    font-size: 22px;
     width: 257px;
     height: 52px;
     color: white;
     font-size: 22px;
     font-weight: 100;
     background-color: transparent;
-    border: 1px solid white;
+    border: 1px solid currentColor;
 }
 
 .lots {
@@ -146,6 +152,7 @@ button {
 .lots__card-list-item {
     position: relative;
     background-size: cover;
+    background-position: center;
     padding: 51px 40px 48px;
     color: white;
     z-index: 0;
@@ -278,4 +285,8 @@ a {
     &:active {
         text-decoration: none;
     }
+}
+
+.footer__menu-list :first-child a {
+    text-decoration: none;
 }
